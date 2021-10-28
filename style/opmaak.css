@@ -1,0 +1,118 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  overflow: scroll; /* Show scrollbars */
+
+
+
+
+}
+p {
+  font-size: 20px;
+}
+h1, h2 {
+  text-align: center;
+  border: 6px solid #6A6811ff;
+  margin: 25px;
+  padding: 10px
+
+
+}
+
+p {
+  border: 10px solid #6A681199;
+  border-radius: 40px;
+}
+p, h1, h2 {
+
+
+  background-color:#BC541499;
+
+}
+
+
+table.teams th {
+  /* Een rand om de headers alleen*/
+  border: 10px solid ;
+  color: #BC5414;
+  padding: 25px;
+
+}
+
+
+}
+th, td {
+   font-size: 25px;
+ }
+#menu li { /* de list items */
+  display: inline;
+  float: left;
+  border: 5px;
+
+  margin: 10px;
+  padding: 25px;
+
+
+}
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+#menu a {
+}
+#menu {
+  background-color:#BC541499;
+  overflow: hidden;
+  margin: 25px;
+  padding: 10px;
+  top: 0; /*zorgt ervoor dat het menu op zijn plek blijgt*/
+}
+
+#menu a {  /* Selecteer de links uit het menu*/
+  color: white;
+  display: block;
+  padding: 10px;
+}
+#menu a:hover {  /* Als je met je muis over een link gaat*/
+  color: black;
+
+
+}
+
+ #menu li { /* de list items */
+  display: inline;
+  float: left;
+  border: 10px solid black;
+
+}
+body#pagina1 {
+    background-image: url('https://www.vi.nl/.imaging/mte/vinl-website-theme/760x506/dam/articles/2021/06/11/copyright-proshots-12120820.jpg/jcr:content/copyright-proshots-12120820.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+      }
+body#pagina2  {
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/11/14/11/standing-fly-2739114_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  body#index {
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg ');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+        body#pagina3   {
+        background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
